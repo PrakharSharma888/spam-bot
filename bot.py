@@ -3,7 +3,7 @@ time.sleep(5)
 f = open("hell.txt",'r')
 for word in f:
     pyautogui.typewrite(word)
-    pyautogui.press("Space")
+    pyautogui.press("Enter")
 f.close()
 
 
